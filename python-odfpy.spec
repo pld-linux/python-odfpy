@@ -100,6 +100,7 @@ Narzędzia do operacji na dokumentach OpenDocument.
 
 %if %{with tests}
 # test_xmlgenerator_wo_ns apparently fails with python 2.7
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 %{__python} -m pytest tests -k 'not test_xmlgenerator_wo_ns'
 %endif
 %endif
@@ -108,6 +109,7 @@ Narzędzia do operacji na dokumentach OpenDocument.
 %py3_build
 
 %if %{with tests}
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 %{__python3} -m pytest tests
 %endif
 %endif
