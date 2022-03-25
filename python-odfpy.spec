@@ -8,7 +8,7 @@ Summary:	Python 2 API and tools to manipulate OpenDocument files
 Summary(pl.UTF-8):	API i narzędzia Pythona 2 do operacji na dokumentach OpenDocument
 Name:		python-odfpy
 Version:	1.4.1
-Release:	3
+Release:	4
 License:	LGPL v2.1+ (module), Apache v2.0 and GPL v2+ (tools)
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/odfpy/
